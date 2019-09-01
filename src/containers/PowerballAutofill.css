@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+  }
+
+.results-numbers {
+    align-self: center;
+    margin-left: auto;
+  }
+.error {
+    color: red;
+}

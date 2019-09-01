@@ -1,0 +1,54 @@
+.container {
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+
+.table {
+  align-items: center;
+  background-color: #fff;
+  color: #444;
+  display: grid;
+  grid-template-columns: repeat(9, auto) 1fr;
+  grid-auto-rows: auto;
+  justify-items: center;
+}
+
+.number {
+  align-items: center;
+  border: 1px solid darkgrey;
+  border-collapse: collapse;
+  color: purple;
+  display: flex;
+  height: 5vw;
+  justify-content: center;
+  width: 5vw;
+
+}
+
+.number-icon {
+  color: thistle;
+  position: absolute;
+  z-index: 1;
+  font-size: 5.5vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: .5vw;
+}
+
+.number-text {
+  z-index: 2;
+  content: '\d7';
+}
+
+.result {
+  background: lavender;
+  font-weight: bold;
+}
+
+.powerball-banner {
+  background-color: slategray;
+  border: 1px solid darkgrey;
+  color: white;
+  text-align: center;
+}
+

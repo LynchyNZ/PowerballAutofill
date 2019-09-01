@@ -1,0 +1,28 @@
+.buttons {
+  align-items: center;
+  display: grid;
+  grid-gap: 1vw;
+  grid-template-columns: repeat(9, auto) 1fr;
+}
+
+.button {
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  height: 5vw;
+  line-height: 5vw;
+  width: 5vw;
+}
+
+.button:after {
+  content: '';
+  display: block;
+}
+
+.auto-fill {
+    background: rebeccapurple;
+  }
+  
+.clear {
+  background: darkgrey;
+}
